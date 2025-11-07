@@ -10,7 +10,7 @@ date_default_timezone_set("America/Chicago");
 $GameDateTimeObject = $realDateTime = new DateTime('now');
 
 // Elite Dangerous time
-$GameDateTimeObject->add(new DateInterval('P1286Y'));
+$GameDateTimeObject->add( new DateInterval('P1286Y') );
 
 $report = [];
 
